@@ -1,12 +1,12 @@
 const food = new Promise((resolve, reject) => {
-    resolve('Sushi')
-    reject('Crackers')
+    resolve('Injera')
+    reject('Bread')
   })
   
   
   // resolve food here: 
   food.then((faveFood) => {
-    console.log(`${faveFood} sounds pretty yummy!`)
+    console.log(`${faveFood} ummmm delicious!`)
   })
 
 // resolve food here: 
