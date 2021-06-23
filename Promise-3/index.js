@@ -35,9 +35,12 @@ greet('Your name') // Returns a Promise
 
 // Challenges: get greet() to fail by passing a non string value
 // What happens? 
+greet(123)
+.then(str => console.log(str))
+.catch(err => console.log(err))
 
 // Challenge: get uppercaser() to fail by passing a non string value
 // What happens? 
-
-// Challenge: Notice there is only a single .catch() at the end. 
-// Explain the behavior?
+uppercaser(123)
+.then(str => console.log(str))
+.catch(err => console.log(err))
